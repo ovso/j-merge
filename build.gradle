@@ -1,0 +1,26 @@
+apply plugin: 'java'
+
+group 'io.github.ovso.jmerge'
+version '1.0.0'
+
+sourceCompatibility = 1.8
+
+jar {
+    manifest {
+        attributes 'Main-Class': 'io.github.ovso.jermge.Jmerge'
+    }
+    from {
+        configurations.compile.collect {
+            it.isDirectory() ? it : zipTree(it)
+        }
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation group: 'junit', name: 'junit', version: '4.12'
+    implementation 'com.google.code.gson:gson:2.8.5'
+}
