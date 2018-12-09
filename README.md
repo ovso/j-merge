@@ -57,11 +57,11 @@ JsonObject object = jmerge.merge(jsons);
 {
     "a":1,
     "b":2,
-    "c":[1,2,3]
+    "c":[ 1, 2, 3]
 }
 // json2
 {
-    "c":[1,2],
+    "c":[ 1, 2],
     "d":1,
     "e":"2"
 }
@@ -70,7 +70,7 @@ JsonObject object = jmerge.merge(jsons);
 {
     "a":1,
     "b":2,
-    "c":[1,2,3,1,2]
+    "c":[1, 2, 3, 1, 2],
     "d":1,
     "e":"2"
 }
@@ -95,7 +95,7 @@ JsonObject object = jmerge.merge(jsons);
 {
     "a":1,
     "b":3,
-	"c":4
+    "c":4
 }
 ```
 
