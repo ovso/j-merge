@@ -98,5 +98,3 @@ JsonObject object = jmerge.merge(jsons);
     "c":4
 }
 ```
-
-[![](https://jitpack.io/v/ovso/j-merge.svg)](https://jitpack.io/#ovso/j-merge)
