@@ -24,7 +24,7 @@ Maven:<dependency>
 
 # 전제조건
 
-현재로서는, 구글의 [Gson](https://github.com/google/gson){:target="_blank"}을 사용해야 합니다.
+현재로서는, 구글의 [Gson](https://github.com/google/gson)을 사용해야 합니다.
 
 # 사용법
 
