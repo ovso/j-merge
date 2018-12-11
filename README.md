@@ -4,7 +4,19 @@ J-merge는 JSON(JavaScript Object Notation)을 병합하는데 사용할 수 있
 
 # 다운로드
 
-Gradle:
+Repository :
+
+```groovy
+allprojects {
+  repositories {
+    ...
+    maven { url 'https://jitpack.io' }
+    ...
+  }
+}
+```
+
+Gradle :
 
 ```groovy
 dependencies {
@@ -12,7 +24,7 @@ dependencies {
 }
 ```
 
-Maven:<dependency>
+Maven :
 
 ```xml
 <dependency>
